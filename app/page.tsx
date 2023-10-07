@@ -1,9 +1,12 @@
-import { CustomInput } from '@/components'
+import { ExploreOurCollection, Header, OurServicesCard, WhyVarmd } from '@/components'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <CustomInput />
+    <main className="flex min-h-screen flex-col  justify-between">
+      <Header />
+      <OurServicesCard />
+      <ExploreOurCollection />
+      <WhyVarmd />
     </main>
   )
 }
