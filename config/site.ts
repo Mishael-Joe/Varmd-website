@@ -3,7 +3,7 @@
 export const siteConfig = {
   name: "Varmd",
   subName: "Uncomplicated & Transparent", 
-  description: "online E-commerce shop",
+  description: "",
   siteRight: "Copyright 2023 Varmd. All rights reserved",
   footer: [
     { name: "Home", href: "/" },
