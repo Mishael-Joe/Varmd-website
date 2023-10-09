@@ -33,14 +33,33 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="flex max-md:flex-col flex-wrap justify-between gap-5 sm:px-16 px-6 py-10">
+          <div className="grid grid-cols-4 justify-between gap-5 sm:px-16 px-6 py-10">
+
+            <div>
+              <h3 className="font-bold">About Us</h3>
+
+              <p className=" text-sm py-4">We are dedicated to sourcing a variety of ceramic & porcelain tiles & provide Quality Control services to off shore clients from India.</p>
+              <div className="flex">
+                <div className=" basis-1/6 flex items-center">
+                  <Image 
+                  src={`/undefined27.png`}
+                  height={20}
+                  width={20}
+                  alt=""
+                  />
+                </div>
+                <div className=" basis-5/6">
+                  <p>T: +919106 223226</p>
+                  <p>F: +919664 617220</p>
+                </div>
+              </div>
+            </div>
 
             {footerLinks.map((item) => (
               <div key={item.title}>
+                <h3 className="font-bold pb-4">{item.title}</h3>
 
-                <h3 className="font-bold">{item.title}</h3>
-
-                <div className="flex flex-col gap-5">
+                <div className="flex flex-col gap-4">
                   {item.links.map((link) => (
                     <Link 
                     key={link.title}
@@ -52,6 +71,18 @@ const Footer = () => {
                 </div>
               </div>
             ))}
+
+            <div>
+              <h3 className="font-bold">Our Office</h3>
+
+              <div>
+                <ul className="flex flex-col gap-y-4">
+                  <li className="pt-4">Times Square 2, Sindhubhavan</li>
+                  <li>Ahmedabad, Gujarat, India.</li>
+                  <li>Info@Varmd.Com</li>
+                </ul>
+              </div>
+            </div>
           </div>
 
           <div>

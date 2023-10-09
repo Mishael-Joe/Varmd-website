@@ -1,5 +1,4 @@
 import React from 'react'
-import { ourServices } from '@/config/constant'
 import Image from 'next/image'
 
 
@@ -12,39 +11,136 @@ function OurServicesCard() {
             <h1 className='font-semibold text-4xl border-b-2 border-slate-400 pb-4 '>Our Services</h1>
 
             <div className=' grid grid-cols-4 pt-8 p-4 gap-x-4'>
+                <div className=' border-gray-400 border rounded-md p-4 bg-slate-200 flex flex-col justify-between'>
+                    <div>
+                        <div className='flex justify-between'>
+                            <Image 
+                            src={'/our-services/undefined9.png'}
+                            width={90}
+                            height={50}
+                            alt=''
+                            />
 
-                {ourServices.map((item) => (
-                    <div key={item.heading} className=' border-gray-400 border rounded-md p-4 bg-slate-200 flex flex-col justify-between'>
-                        <div>
-                            <div>
+                            <Image 
+                            src={'/our-services/undefined10.png'}
+                            width={90}
+                            height={50}
+                            alt=''
+                            />
+                        </div>
+
+                        <h2 className=' font-semibold text-xl py-4'>Product Sourcing</h2>
+                        
+                        <div>Find trustworthy manufacturers to purchase your desired products ranges from, at a reasonable cost.</div>
+                    </div>
+
+                    <div>
+                        <p className=' font-semibold pt-8 py-1 flex items-baseline gap-x-2'>
+                            Read More 
+                            
                                 <Image 
-                                src={item.img}
-                                width={50}
-                                height={50}
+                                src={'/our-services/undefined11.png'}
+                                width={15}
+                                height={20}
                                 alt=''
                                 />
-                            </div>
-
-                            <h2 className=' font-semibold text-xl py-4'>{item.heading}</h2>
-                            
-                            <div>{item.description}</div>
-                        </div>
-
-                        <div>
-                            <p className=' font-semibold pt-8 py-1 flex items-baseline gap-x-2'>
-                                Read More 
-                                
-                                    <Image 
-                                    src={'/our-services/undefined11.png'}
-                                    width={15}
-                                    height={20}
-                                    alt=''
-                                    />
-                            
-                            </p>
-                        </div>
+                        
+                        </p>
                     </div>
-                ))}
+                </div>
+
+                <div className=' border-gray-400 border rounded-md p-4 bg-slate-200 flex flex-col justify-between'>
+                    <div>
+                        <div>
+                            <Image 
+                            src={'/our-services/undefined12.png'}
+                            width={250}
+                            height={50}
+                            alt=''
+                            />
+                        </div>
+
+                        <h2 className=' font-semibold text-xl py-4'>OEM Operation</h2>
+                        
+                        <div>VSource helps you to collaborate with the right manufacturer(s) who could match your OEM demands & parameters in terms of production capacity, capability, quality, & pricing.</div>
+                    </div>
+
+                    <div>
+                        <p className=' font-semibold pt-8 py-1 flex items-baseline gap-x-2'>
+                            Read More 
+                            
+                                <Image 
+                                src={'/our-services/undefined11.png'}
+                                width={15}
+                                height={20}
+                                alt=''
+                                />
+                        
+                        </p>
+                    </div>
+                </div>
+
+                <div className=' border-gray-400 border rounded-md p-4 bg-slate-200 flex flex-col justify-between'>
+                    <div>
+                        <div>
+                            <Image 
+                            src={'/our-services/undefined13.png'}
+                            width={250}
+                            height={50}
+                            alt=''
+                            />
+                        </div>
+
+                        <h2 className=' font-semibold text-xl py-4'>Quantity Assurance</h2>
+                        
+                        <div>Stressed over the quantity of your tiles while purchasing? Don\'t worry, our quantity control administrations are here to help you in keeping up with the quantity of your brand by really taking a look at your items in the plant as per the acknowledgement quantity breaking point (AQL) and giving you a nitty gritty report on regardless of wether this item is produced by your necessity or not.</div>
+                    </div>
+
+                    <div>
+                        <p className=' font-semibold pt-8 py-1 flex items-baseline gap-x-2'>
+                            Read More 
+                            
+                                <Image 
+                                src={'/our-services/undefined11.png'}
+                                width={15}
+                                height={20}
+                                alt=''
+                                />
+                        
+                        </p>
+                    </div>
+                </div>
+
+                <div className=' border-gray-400 border rounded-md p-4 bg-slate-200 flex flex-col justify-between'>
+                    <div>
+                        <div>
+                            <Image 
+                            src={'/our-services/undefined14.png'}
+                            width={250}
+                            height={50}
+                            alt=''
+                            />
+                        </div>
+
+                        <h2 className=' font-semibold text-xl py-4'>Freight Forwarding</h2>
+                        
+                        <div>Our experienced team with extremely proficient forwarding services can diminish your supply chain issues & deliver your cargo to all leadind ports accross the globe in a protected and momentary manner.</div>
+                    </div>
+
+                    <div>
+                        <p className=' font-semibold pt-8 py-1 flex items-baseline gap-x-2'>
+                            Read More 
+                            
+                                <Image 
+                                src={'/our-services/undefined11.png'}
+                                width={15}
+                                height={20}
+                                alt=''
+                                />
+                        
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
         
