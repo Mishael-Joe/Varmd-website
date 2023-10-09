@@ -4,10 +4,10 @@ import React from 'react'
 function OurContact() {
   return (
     <section>
-      <div className='container mx-auto px-4 sm:px-8 py-6 flex items-center gap-x-8'>
+      <div className='container mx-auto px-4 sm:px-8 py-6 flex flex-col md:flex-row items-center gap-8'>
         <div className=' basis-1/2'>
           <h3 className=' text-yellow-600 flex items-center gap-x-2 font-semibold'><span className="inline-block w-12 h-1 bg-yellow-600 rounded-full"></span> OUR CONTACT</h3>
-          <h1 className='font-semibold text-4xl p-4'>Get In Touch With Us</h1>
+          <h1 className='font-semibold text-xl md:text-4xl p-4'>Get In Touch With Us</h1>
           <p className=' pb-4'>We are dedicated to sourcing a variety of ceramic & porcelain tiles & provide <br /> Quality Control services off the shore clients from India.</p>
 
           <div className='flex flex-col gap-4'>

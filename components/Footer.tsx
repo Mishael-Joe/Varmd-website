@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="inset-0 bg-black/50">
         <div className=" container py-10 mx-auto lg:max-w-6xl">
 
-          <div className=" flex justify-between">
+          <div className=" flex justify-between flex-col md:flex-row px-6">
             <div className=" flex flex-col">
               <span className=' font-extrabold'>{siteConfig.name}</span>
               <span className=' font-thin text-sm'>{siteConfig.subName}</span>
@@ -28,14 +28,14 @@ const Footer = () => {
               onChange={(e) => setEmail(e.target.value)}
               type="email"
               placeholder="Your Email Address"
-              className="w-[26rem] h-[48px] pl-8 bg-transparent p-4 border-white border-b-2 outline-none cursor-pointer text-sm text-slate-100 placeholder:text-slate-200"
+              className="w-[14rem] md:w-[26rem] h-[48px] pl-8 bg-transparent p-4 border-white border-b-2 outline-none cursor-pointer text-sm text-slate-100 placeholder:text-slate-200"
               />
             </div>
           </div>
 
-          <div className="grid grid-cols-4 justify-between gap-5 sm:px-16 px-6 py-10">
+          <div className="grid md:grid-cols-4 justify-between gap-5 sm:px-16 px-6 py-10">
 
-            <div>
+            <div className="">
               <h3 className="font-bold">About Us</h3>
 
               <p className=" text-sm py-4">We are dedicated to sourcing a variety of ceramic & porcelain tiles & provide Quality Control services to off shore clients from India.</p>

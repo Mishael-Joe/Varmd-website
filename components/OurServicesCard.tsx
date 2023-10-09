@@ -8,9 +8,9 @@ function OurServicesCard() {
 
         <div className=' container mx-auto px-4 sm:px-8 py-4'>
 
-            <h1 className='font-semibold text-4xl border-b-2 border-slate-400 pb-4 '>Our Services</h1>
+            <h1 className='font-semibold text-2xl sm:text-4xl border-b-2 border-slate-400 pb-4'>Our Services</h1>
 
-            <div className=' grid grid-cols-4 pt-8 p-4 gap-x-4'>
+            <div className=' grid md:grid-cols-2 lg:grid-cols-4 pt-8 p-4 gap-4'>
                 <div className=' border-gray-400 border rounded-md p-4 bg-slate-200 flex flex-col justify-between'>
                     <div>
                         <div className='flex justify-between'>

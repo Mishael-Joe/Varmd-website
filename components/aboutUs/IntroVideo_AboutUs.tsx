@@ -4,7 +4,7 @@ import React from 'react'
 function IntroVideo_AboutUs() {
   return (
     <section>
-        <div className='flex items-center container mx-auto px-4 sm:px-8 py-6'>
+        <div className='flex flex-col md:flex-row items-center container mx-auto px-4 sm:px-8 py-6'>
             <div className=' basis-1/2'>
                 <Image 
                 src={'/aboutUs/undefined33.png'}
@@ -28,7 +28,7 @@ function IntroVideo_AboutUs() {
                     width={250}
                     height={50}
                     alt=''
-                    className='object-cover float-right'
+                    className='object-cover float-right w-48 md:w-fit'
                     />
 
                     <p className='pb-2 text-xl font-semibold'>2+ Million+ sq meters Sourced, Inspected & Shipped.</p>

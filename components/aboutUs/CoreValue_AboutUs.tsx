@@ -5,9 +5,9 @@ function CoreValue_AboutUs() {
     <section>
       <div className=' container mx-auto px-4 sm:px-8 py-4'>
         <h3 className=' text-yellow-600 flex items-center gap-x-2 font-semibold'><span className="inline-block w-12 h-1 bg-yellow-600 rounded-full"></span> Core Value</h3>
-        <h1 className='font-semibold text-4xl border-b-2 border-slate-400 pb-4'>Empowering Growth with Trust and Teamwork</h1>
+        <h1 className='font-semibold text-lg md:text-4xl border-b-2 border-slate-400 pb-4'>Empowering Growth with Trust and Teamwork</h1>
 
-        <div className='grid grid-cols-4 gap-x-4 container mx-auto px-4 sm:px-8 py-6'>
+        <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-4 container mx-auto px-4 sm:px-8 py-6'>
 
           <div className=' border-gray-400 border rounded-md p-4 bg-slate-200 flex flex-col gap-y-4'>
             <p className='text-yellow-600 text-xl pb-4 font-semibold'>Uncomplicated & Transparent</p>

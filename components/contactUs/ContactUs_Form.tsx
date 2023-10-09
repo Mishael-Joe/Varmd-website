@@ -31,7 +31,7 @@ function ContactUs_Form() {
     
   return (
     <section>
-      <div className='container mx-auto px-4 sm:px-8 py-6 flex items-center gap-x-16'>
+      <div className='container mx-auto px-4 sm:px-8 py-6 flex flex-col md:flex-row items-center gap-16'>
         <div className=' basis-1/2'>
           <Image  
           src={`/contact/undefined64.png`}
