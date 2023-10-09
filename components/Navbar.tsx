@@ -50,18 +50,19 @@ const Navbar = () => {
 
             <div>
                 <ul className='flex gap-x-4 font-semibold'>
-                    <li>Home</li>
-                    <li>About Us</li>
-                    <li>Products</li>
-                    <li>Services</li>
-                    <li>Contact Us</li>
+                    <li><Link href={'/'}>Home</Link></li>
+
+                    <li><Link href={'/about-us'}>About Us</Link></li>
+
+                    <li><Link href={'/products'}>Products</Link></li>
+
+                    <li><Link href={'/services'}>Services</Link></li>
+
+                    <li><Link href={'contact-us'}>Contact Us</Link></li>
                 </ul>
             </div>
         </div>
     </nav>
-    // <header className=' w-full z-10 absolute'>
-      
-    // </header max-w-[1440px] mx-auto >
   )
 }
 
