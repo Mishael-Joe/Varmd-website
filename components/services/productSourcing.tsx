@@ -21,7 +21,7 @@ function ProductSourcing() {
             <div>
                 <div key={service.key} className=' text-slate-700'>
 
-                    <h1 className='font-semibold text-4xl text-slate-900 pb-6 '>Product Sourcing</h1>
+                    <h1 className='font-semibold text-xl md:text-4xl text-slate-900 pb-6 '>Product Sourcing</h1>
 
                     <p className='pb-4'>{service.p1}</p>
 

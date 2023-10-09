@@ -16,7 +16,7 @@ function Header_AboutUs() {
 
           <div className=' absolute text-center inset-0 flex items-center justify-center bg-black/5'>
             <div className='max-w-xl'>
-              <p className=' text-4xl text-black font-bold'>AboutUs</p>
+              <p className='text-xl md:text-4xl text-black font-bold'>AboutUs</p>
             </div>
           </div>
       </div>

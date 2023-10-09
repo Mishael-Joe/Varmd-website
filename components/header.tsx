@@ -16,12 +16,12 @@ function Header() {
 
             <div className=' absolute text-center inset-0 flex items-center justify-center bg-black/50'>
                 <div className='max-w-xl'>
-                    <p className=' text-xl'>-WELCOME TO VARMD TILES-</p> <br />
-                    <p className='flex flex-col gap-y-2 text-4xl font-semibold text-yellow-600'>
+                    <p className='sm:text-xl'>-WELCOME TO VARMD TILES-</p> <br />
+                    <p className='flex flex-col sm:pb-4 gap-y-2 sm:text-xl md:text-4xl font-semibold text-yellow-600'>
                         <span>SECURE YOUR TILES SUPPLIES,</span>
                         <span>WITH VARMD</span>
                     </p>
-                    <div className=' max-w-lg font-semibold text-xl'>
+                    <div className='max-w-4xl font-semibold text-xs sm:text-sm md:text-xl'>
                         <div>
                             <ul className=' max-w-lg flex list-disc list-inside'>                                
                                 <li className=' basis-1/2'>Ceramic Tiles</li>
