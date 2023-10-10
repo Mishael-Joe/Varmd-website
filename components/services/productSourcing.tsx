@@ -9,12 +9,12 @@ function ProductSourcing() {
         <div className=' container mx-auto px-4 sm:px-8 py-6'>
             <div >
                 <Image 
-                src={'/services/undefined34.png'}
+                src={'/services/undefined34.jpg'}
                 width={400}
                 height={50}
                 quality={100}
                 alt=''
-                className='object-cover container mx-auto pb-8 w-[60%] h-[30%]'
+                className='object-cover rounded-lg container mx-auto pb-8 w-[60%] h-[30%]'
                 />
             </div>
 

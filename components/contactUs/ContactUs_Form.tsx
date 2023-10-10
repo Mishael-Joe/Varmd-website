@@ -55,7 +55,7 @@ function ContactUs_Form() {
               value={formData.Name}
               onChange={handleChange}
               placeholder="Name"
-              className=" h-12 w-full px-3 py-1 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-300 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-green-400 dark:focus:border-blue-400 focus:ring-green-100 focus:outline-none focus:ring focus:ring-opacity-40"
+              className=" h-12 w-full px-3 py-1 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-300 rounded-lg focus:border-green-400 focus:ring-green-100 focus:outline-none focus:ring focus:ring-opacity-40"
               />
 
               <input 
@@ -64,7 +64,7 @@ function ContactUs_Form() {
               value={formData.Email}
               onChange={handleChange}
               placeholder="Email"
-              className=" h-12 w-full px-3 py-1 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-300 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-green-400 dark:focus:border-blue-400 focus:ring-green-100 focus:outline-none focus:ring focus:ring-opacity-40"
+              className=" h-12 w-full px-3 py-1 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-300 rounded-lg focus:border-green-400 focus:ring-green-100 focus:outline-none focus:ring focus:ring-opacity-40"
               />
 
               <input 
@@ -73,7 +73,7 @@ function ContactUs_Form() {
               value={formData.Number}
               onChange={handleChange}
               placeholder="Number"
-              className=" h-12 w-full px-3 py-1 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-300 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-green-400 dark:focus:border-blue-400 focus:ring-green-100 focus:outline-none focus:ring focus:ring-opacity-40"
+              className=" h-12 w-full px-3 py-1 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-300 rounded-lg focus:border-green-400 focus:ring-green-100 focus:outline-none focus:ring focus:ring-opacity-40"
               />
 
               <input 
@@ -82,7 +82,7 @@ function ContactUs_Form() {
               value={formData.Address}
               onChange={handleChange}
               placeholder="Address"
-              className=" h-12 w-full px-3 py-1 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-300 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-green-400 dark:focus:border-blue-400 focus:ring-green-100 focus:outline-none focus:ring focus:ring-opacity-40"
+              className=" h-12 w-full px-3 py-1 mt-2 text-gray-700 placeholder-gray-400 bg-white border border-gray-300 rounded-lg focus:border-green-400 focus:ring-green-100 focus:outline-none focus:ring focus:ring-opacity-40"
               />
             </div>
 
@@ -93,7 +93,7 @@ function ContactUs_Form() {
               value={formData.Message}
               onChange={handleChange}
               placeholder="Message"
-              className="h-20  te w-full px-3 py-1 mt-4 text-gray-700 placeholder-gray-400 bg-white border border-gray-300 rounded-lg dark:placeholder-gray-600 dark:bg-gray-900 dark:text-gray-300 dark:border-gray-700 focus:border-green-400 dark:focus:border-blue-400 focus:ring-green-100 focus:outline-none focus:ring focus:ring-opacity-40"
+              className="h-20  te w-full px-3 py-1 mt-4 text-gray-700 placeholder-gray-400 bg-white border border-gray-300 rounded-lg focus:border-green-400 focus:ring-green-100 focus:outline-none focus:ring focus:ring-opacity-40"
               />
             </div>
         </form>

@@ -20,25 +20,26 @@ const BottomNav = () => {
     
     const handleClick = ():any =>{
         setIsOpen(!isOpen)
+        document.body.classList.toggle('overflow');
     }
 
     return (
         <>
         <button className=' absolute top-14 right-6' onClick={handleClick}> {!isOpen && (<GiHamburgerMenu />)} </button>
         {isOpen && (
-            <div className='px-4 inset-0 bg-black/50 fixed z-10 w-full h-full'>
-                <i className=' absolute top-5 right-5 z-50' onClick={handleClick}><AiOutlineClose /></i>
-                <div className='px-4 w-[40vw] h-full bg-slate-100 absolute right-0'>
-                    <ul className='flex flex-col gap-4 pt-10 font-semibold'>
-                        <li onClick={handleClick}><Link href={'/'}>Home</Link></li>
+            <div className={`px-4 inset-0 bg-black/50 fixed z-10 w-full h-full`}>
+                <i className=' absolute top-3 right-4 z-50 p-2 hover:bg-slate-200' onClick={handleClick}><AiOutlineClose /></i>
+                <div className='w-[50vw] sm:w-[40vw] font-semibold h-full bg-slate-100 absolute right-0'>
+                    <ul className='flex flex-col gap-2 pt-10 font-semibold'>
+                        <li className='hover:bg-slate-200 px-4 py-2 rounded-sm' onClick={handleClick}><Link href={'/'}>Home</Link></li>
 
-                        <li onClick={handleClick}><Link href={'/about'}>About Us</Link></li>
+                        <li className='hover:bg-slate-200 px-4 py-2 rounded-sm' onClick={handleClick}><Link href={'/about'}>About Us</Link></li>
 
-                        <li onClick={handleClick}><Link href={'/products'}>Products</Link></li>
+                        <li className='hover:bg-slate-200 px-4 py-2 rounded-sm' onClick={handleClick}><Link href={'/products'}>Products</Link></li>
 
-                        <li onClick={handleClick}><Link href={'/services'}>Services</Link></li>
+                        <li className='hover:bg-slate-200 px-4 py-2 rounded-sm' onClick={handleClick}><Link href={'/services'}>Services</Link></li>
 
-                        <li onClick={handleClick}><Link href={'contact-us'}>Contact Us</Link></li>
+                        <li className='hover:bg-slate-200 px-4 py-2 rounded-sm' onClick={handleClick}><Link href={'contact-us'}>Contact Us</Link></li>
                     </ul>
                 </div>
             </div>
@@ -69,7 +70,7 @@ function ResizedNav() {
 const Navbar = () => {
   return (
     <nav className='flex flex-col justify-between'>
-        <div className=' bg-gray-600 text-slate-100 sm:px-16 px-6 py-2 flex justify-between'>
+        <div className=' bg-gray-600 text-slate-100 sm:px-16 px-2 py-2 flex justify-between'>
             <div className='flex justify-between gap-x-4'>
                 <span className='flex justify-between gap-x-2 text-xs'>
                     <Image
@@ -108,7 +109,7 @@ const Navbar = () => {
             </div>
         </div>
 
-        <div className='px-6 sm:px-14 py-1 flex justify-between items-center gap-2'>
+        <div className='px-3 sm:px-14 py-1 flex justify-between items-center gap-2'>
             <div className='flex flex-col'>
                 <h2 className=' font-extrabold'>{siteConfig.name}</h2>
                 <h4 className=' font-light text-sm'>{siteConfig.subName}</h4>
