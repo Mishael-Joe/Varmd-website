@@ -15,28 +15,36 @@ const Footer = () => {
       <div className="inset-0 bg-black/50">
         <div className=" container py-10 mx-auto lg:max-w-6xl">
 
-          <div className=" flex justify-between flex-col md:flex-row px-6">
+          <div className=" flex justify-between  md:flex-row px-6 gap-2 items-center">
             <div className=" flex flex-col">
               <span className=' font-extrabold'>{siteConfig.name}</span>
-              <span className=' font-thin text-sm'>{siteConfig.subName}</span>
+              <span className=' font-thin text-xs sm:text-sm'>{siteConfig.subName}</span>
             </div>
 
-            <div>
+            <div className="relative">
+              <Image 
+              src={`/undefined30.png`}
+              width={20}
+              height={20}
+              alt=""
+              className="absolute right-3 top-4 sm:bottom-2"
+              />
+
               <input
               name="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               type="email"
               placeholder="Your Email Address"
-              className="w-[14rem] md:w-[26rem] h-[48px] pl-8 bg-transparent p-4 border-white border-b-2 outline-none cursor-pointer text-sm text-slate-100 placeholder:text-slate-200"
+              className="w-[10rem] md:w-[26rem] h-[48px] pl-1 sm:pl-4 bg-transparent p-4 border-white border-b-2 outline-none cursor-pointer text-sm text-slate-100 placeholder:text-slate-200"
               />
             </div>
           </div>
 
-          <div className="grid md:grid-cols-4 justify-between gap-5 sm:px-16 px-6 py-10">
+          <div className="grid md:grid-cols-3 gap-5 sm:px-16 px-6 py-10">
 
-            <div className="">
-              <h3 className="font-bold">About Us</h3>
+            <div className="container max-w-sm mx-auto">
+              <h3 className="font-bold text-xl">About Us</h3>
 
               <p className=" text-sm py-4">We are dedicated to sourcing a variety of ceramic & porcelain tiles & provide Quality Control services to off shore clients from India.</p>
               <div className="flex">
@@ -46,6 +54,7 @@ const Footer = () => {
                   height={20}
                   width={20}
                   alt=""
+                  className=" w-12 md:w-8"
                   />
                 </div>
                 <div className=" basis-5/6">
@@ -55,25 +64,27 @@ const Footer = () => {
               </div>
             </div>
 
-            {footerLinks.map((item) => (
-              <div key={item.title}>
-                <h3 className="font-bold pb-4">{item.title}</h3>
+            <div className="grid grid-cols-2">
+              {footerLinks.map((item) => (
+                <div key={item.title}>
+                  <h3 className="font-bold pb-4 text-xl">{item.title}</h3>
 
-                <div className="flex flex-col gap-4">
-                  {item.links.map((link) => (
-                    <Link 
-                    key={link.title}
-                    href={link.url}
-                    >
-                      {link.title}
-                    </Link>
-                  ))}
+                  <div className="flex flex-col gap-4">
+                    {item.links.map((link) => (
+                      <Link 
+                      key={link.title}
+                      href={link.url}
+                      >
+                        {link.title}
+                      </Link>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
 
-            <div>
-              <h3 className="font-bold">Our Office</h3>
+            <div className="container max-w-[15rem] mx-auto">
+              <h3 className="font-bold text-xl">Our Office</h3>
 
               <div>
                 <ul className="flex flex-col gap-y-4">
