@@ -4,7 +4,7 @@ import React from 'react'
 function Certification_AboutUs() {
   return (
     <section>
-        <div className='flex flex-col md:flex-row items-center container mx-auto px-4 sm:px-8 py-6'>
+        <div className='flex flex-col md:flex-row items-center mx-auto px-4 sm:px-10 py-6'>
             <div className=' basis-3/7'>
                 <Image 
                 src={'/aboutUs/undefined38.png'}

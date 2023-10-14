@@ -13,11 +13,11 @@ const Footer = () => {
   return (
     <footer className='bg-[url(/undefined26.png)] flex flex-col text-slate-100 mt-5 border-t border-gray-100'>
       <div className="inset-0 bg-black/50">
-        <div className="py-10 mx-auto lg:max-w-6xl">
+        <div className="py-10 mx-auto lg:max-w-7xl">
 
           <div className=" flex justify-between  md:flex-row px-6 gap-2 items-center">
-            <div className=" flex flex-col">
-              <span className=' font-extrabold'>{siteConfig.name}</span>
+            <div className=" flex flex-col font-Enriqueta">
+              <span className=' font-extrabold md:text-[23px]'>{siteConfig.name}</span>
               <span className=' font-thin text-xs sm:text-sm'>{siteConfig.subName}</span>
             </div>
 
@@ -41,10 +41,10 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-4 sm:px-16 px-6 py-10 text-sm sm:text-base">
+          <div className="grid md:grid-cols-3 gap-4 sm:px-10 px-6 py-10 text-sm sm:text-base">
 
             <div className="container max-w-sm mx-auto">
-              <h3 className="font-bold text-lg">About Us</h3>
+              <h3 className="font-bold text-2xl">About Us</h3>
 
               <p className=" text-sm py-4">We are dedicated to sourcing a variety of ceramic & porcelain tiles & provide Quality Control services to off shore clients from India.</p>
               <div className="flex">
@@ -67,7 +67,7 @@ const Footer = () => {
             <div className="grid grid-cols-2 pt-4 sm:pt-0 gap-4 container max-w-lg mx-auto">
               {footerLinks.map((item) => (
                 <div key={item.title}>
-                  <h3 className="font-bold pb-4 text-lg">{item.title}</h3>
+                  <h3 className="font-bold pb-4 text-2xl">{item.title}</h3>
 
                   <div className="flex flex-col gap-4">
                     {item.links.map((link) => (
@@ -84,7 +84,7 @@ const Footer = () => {
             </div>
 
             <div className="container max-w-[15rem] mx-auto">
-              <h3 className="font-bold text-lg">Our Office</h3>
+              <h3 className="font-bold text-2xl">Our Office</h3>
 
               <div>
                 <ul className="flex flex-col gap-y-4">

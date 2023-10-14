@@ -70,9 +70,9 @@ function ResizedNav() {
 const Navbar = () => {
   return (
     <nav className='flex flex-col justify-between'>
-        <div className=' bg-gray-600 text-slate-100 sm:px-16 px-2 py-2 flex justify-between'>
+        <div className=' bg-gray-600 text-slate-100 sm:px-16 px-2 py-2 flex justify-between  text-xs sm:text-[16px]'>
             <div className='flex justify-between gap-x-4'>
-                <span className='flex justify-between gap-x-2 text-xs'>
+                <span className='flex justify-between gap-x-2 '>
                     <Image
                     src={'/undefined1.png'}
                     width={20}
@@ -83,7 +83,7 @@ const Navbar = () => {
                     Morbi, India
                 </span>
 
-                <span className='flex justify-between gap-x-2 text-xs'>
+                <span className='flex justify-between gap-x-2'>
                     <Image
                     src={'/undefined2.png'}
                     width={20}
@@ -96,7 +96,7 @@ const Navbar = () => {
             </div>
 
             <div>
-                <span className='flex justify-between gap-x-2 text-xs'>
+                <span className='flex justify-between gap-x-2'>
                     <Image
                     src={'/undefined3.png'}
                     width={20}
@@ -109,9 +109,9 @@ const Navbar = () => {
             </div>
         </div>
 
-        <div className='px-3 sm:px-14 py-1 flex justify-between items-center gap-2'>
-            <div className='flex flex-col'>
-                <h2 className=' font-extrabold'>{siteConfig.name}</h2>
+        <div className='px-3 sm:px-14 py-1 flex justify-between items-center gap-2 bg-slate-50'>
+            <div className='flex flex-col font-Enriqueta'>
+                <h2 className=' font-extrabold md:text-[23px]'>{siteConfig.name}</h2>
                 <h4 className=' font-light text-sm'>{siteConfig.subName}</h4>
             </div>
 

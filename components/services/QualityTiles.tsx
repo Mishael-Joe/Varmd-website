@@ -11,7 +11,7 @@ function QualityTiles() {
             </div>
 
             <div className='flex justify-evenly gap-x-4 md:text-2xl'>
-                <p className='text-yellow-500 border-b-2 pb-2 border-slate-400'>Product Sourcing</p>
+                <p className='text-[#E6AF5D] border-b-2 pb-2 border-slate-400'>Product Sourcing</p>
                 <p className='border-b-2 pb-2 border-slate-400'>OEM Operation</p>
                 <p className='border-b-2 pb-2 border-slate-400'>Quality Assurance</p>
                 <p className='border-b-2 pb-2 border-slate-400'>Freight Forwarding</p>

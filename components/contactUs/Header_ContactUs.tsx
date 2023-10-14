@@ -16,7 +16,7 @@ function Header_ContactUs() {
 
           <div className=' absolute text-center inset-0 flex items-center justify-center bg-black/5'>
             <div className='max-w-xl'>
-              <p className='text-xl md:text-4xl text-black font-bold'>Contact Us</p>
+              <p className='text-3xl sm:text-6xl text-black font-bold'>Contact Us</p>
             </div>
           </div>
       </div>

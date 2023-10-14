@@ -6,7 +6,7 @@ function ProductSourcing() {
   return (
     <section>
         {services.map((service) => (
-        <div className=' container mx-auto px-4 sm:px-8 py-6'>
+        <div className=' container mx-auto px-4 sm:px-4 py-6'>
             <div >
                 <Image 
                 src={'/services/undefined34.jpg'}

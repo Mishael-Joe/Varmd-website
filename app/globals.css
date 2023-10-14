@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Enriqueta:wght@400;500&family=Plus+Jakarta+Sans:wght@200;300&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -12,12 +14,38 @@
   overflow-y: hidden;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.hex-container {
+  width: 170px;
+  height: 170px;
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.for-grid {
+  display: grid;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .for-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-rows: repeat(4, 1fr) ;
+    grid-template-columns:  repeat(3, 1fr);
+  }
+  
+  .card-item__1 {
+    grid-row: 1/4;
+    grid-column: 1;
+  }
+  
+  .card-item__2 {
+    grid-row: 2/5;
+    grid-column: 2;
+  }
+  
+  .card-item__3 {
+    grid-row: 1/4;
+    grid-column: 3;
+  }
+  
 }

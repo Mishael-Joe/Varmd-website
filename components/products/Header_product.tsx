@@ -16,7 +16,7 @@ function Header_product() {
 
           <div className=' absolute text-center inset-0 flex items-center justify-center bg-black/5'>
             <div className='max-w-xl'>
-              <p className='text-lg md:text-4xl text-black font-bold'>Products</p>
+              <p className='text-3xl sm:text-6xl text-black font-bold'>Products</p>
             </div>
           </div>
       </div>

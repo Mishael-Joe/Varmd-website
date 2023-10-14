@@ -4,10 +4,10 @@ import Image from 'next/image'
 function ExploreOurCollection() {
   return (
     <section>
-        <div className=' container mx-auto px-4 sm:px-8 py-4'>
+        <div className='mx-auto px-4 sm:px-8 py-4'>
 
-            <h5 className=' text-yellow-500'>- Choose Your Tiles</h5>
-            <h1 className='font-semibold text-2xl sm:text-4xl border-b-2 border-slate-400 pb-4 '>Explore Our Collection</h1>
+            <h5 className=' text-[#E6AF5D] text-lg py-2'>- Choose Your Tiles</h5>
+            <h1 className='font-semibold text-3xl sm:text-[45px] border-b-2 border-slate-400 pb-4 '>Explore Our Collection</h1>
 
             <div className=' grid md:grid-cols-2 lg:grid-cols-3 pt-8 p-4 gap-x-4 gap-y-8'>
 
@@ -25,7 +25,7 @@ function ExploreOurCollection() {
                         <div>
                             <h1 className='font-semibold text-xl lg:text-2xl text-slate-50'>INDOOR - PORCELAIN TILES</h1>
                             <p className=' text-sm sm:py-2'>Porcelain Tiles suitable for indoor wall & floor with</p>
-                            <p className='lg:text-lg text-yellow-500'>Water absorption &lt; 0.5% </p>
+                            <p className='lg:text-lg text-[#E6AF5D]'>Water absorption &lt; 0.5% </p>
 
                             <p className='pt-1.5 sm:pt-2 text-sm lg:text-base'>In various sizes (cm)</p>
                             <p className='text-sm lg:text-base'>30 x 60, 60 x 60, 60 x 120</p>
@@ -67,7 +67,7 @@ function ExploreOurCollection() {
                         <div>
                             <h1 className='font-semibold text-xl md:text-2xl text-slate-50'>SUBWAY / METROTILES</h1>
                             <p className=' text-sm sm:py-2'>Subway or Metro tiles, with</p>
-                            <p className='md:text-lg text-yellow-500'>Water absorption &lt; 15% </p>
+                            <p className='md:text-lg text-[#E6AF5D]'>Water absorption &lt; 15% </p>
 
                             <p className='pt-1.5 sm:pt-4 text-sm md:text-base'>In various sizes (cm)</p>
                             <p>10 x 20, 10 x 30, 10 x 40</p>
@@ -107,10 +107,10 @@ function ExploreOurCollection() {
                     <div className='flex flex-col text-slate-200 justify-between inset-0 bg-black/50 absolute p-4'>
                         <div>
                             <h1 className='font-semibold text-xl md:text-2xl text-slate-50'>WOOD FINISHTILES</h1>
-                            <p className='sm:text-base py-2 md:pt-4'>Wood effect (<span className=' text-yellow-500'>pressed</span>)</p>
+                            <p className='sm:text-base py-2 md:pt-4'>Wood effect (<span className=' text-[#E6AF5D]'>pressed</span>)</p>
                             <p className='text-sm sm:text-base'>porcelain tiles suitable for</p>
                             <p className='text-sm sm:text-base'>indoor walls & floors, with</p>
-                            <p className='sm:text-lg text-yellow-500'>Water absorption &lt; 0.5% </p>
+                            <p className='sm:text-lg text-[#E6AF5D]'>Water absorption &lt; 0.5% </p>
 
                             <p className='pt-1.5 sm:pt-4'>In 2 sizes (cm)</p>
                             <p>20 x 120, 30 x 120</p>
