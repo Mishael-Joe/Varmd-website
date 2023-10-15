@@ -72,7 +72,7 @@ const Navbar = () => {
     <nav className='flex flex-col justify-between'>
         <div className=' bg-gray-600 text-slate-100 sm:px-16 px-2 py-2 flex justify-between  text-xs sm:text-[16px]'>
             <div className='flex justify-between gap-x-4'>
-                <span className='flex justify-between gap-x-2 '>
+                <span className='flex justify-between gap-x-2 items-center'>
                     <Image
                     src={'/undefined1.png'}
                     width={20}
@@ -83,7 +83,7 @@ const Navbar = () => {
                     Morbi, India
                 </span>
 
-                <span className='flex justify-between gap-x-2'>
+                <span className='flex justify-between gap-x-2 items-center'>
                     <Image
                     src={'/undefined2.png'}
                     width={20}
@@ -96,7 +96,7 @@ const Navbar = () => {
             </div>
 
             <div>
-                <span className='flex justify-between gap-x-2'>
+                <span className='flex justify-between gap-x-2 items-center'>
                     <Image
                     src={'/undefined3.png'}
                     width={20}
@@ -117,15 +117,15 @@ const Navbar = () => {
 
             <div>
                 <ul className='sm:flex text-sm lg:text-base gap-x-4 font-semibold hidden'>
-                    <li><Link href={'/'}>Home</Link></li>
+                    <li className='hover:border-b-2 hover:border-b-black transition-all delay-100'><Link href={'/'}>Home</Link></li>
 
-                    <li><Link href={'/about'}>About Us</Link></li>
+                    <li className='hover:border-b-2 hover:border-b-black transition-all delay-100'><Link href={'/about'}>About Us</Link></li>
 
-                    <li><Link href={'/products'}>Products</Link></li>
+                    <li className='hover:border-b-2 hover:border-b-black transition-all delay-100'><Link href={'/products'}>Products</Link></li>
 
-                    <li><Link href={'/services'}>Services</Link></li>
+                    <li className='hover:border-b-2 hover:border-b-black transition-all delay-100'><Link href={'/services'}>Services</Link></li>
 
-                    <li><Link href={'contact-us'}>Contact Us</Link></li>
+                    <li className='hover:border-b-2 hover:border-b-black transition-all delay-100'><Link href={'contact-us'}>Contact Us</Link></li>
                 </ul>
             </div>
         </div>

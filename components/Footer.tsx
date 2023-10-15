@@ -74,6 +74,7 @@ const Footer = () => {
                       <Link 
                       key={link.title}
                       href={link.url}
+                      className=" hover:font-bold"
                       >
                         {link.title}
                       </Link>

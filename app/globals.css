@@ -15,14 +15,23 @@
 }
 
 .hex-container {
-  width: 170px;
-  height: 170px;
+  width: 150px;
+  height: 150px;
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
 .for-grid {
   display: grid;
   gap: 2rem;
+}
+
+@media (min-width: 468px) {
+  .hex-container {
+    width: 200px;
+    height: 200px;
+  
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  }
 }
 
 @media (min-width: 768px) {
